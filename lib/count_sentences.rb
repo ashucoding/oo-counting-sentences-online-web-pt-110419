@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    "I love coding.".end_with?(".")
+    self.end_with?(".")
   end
 
   def question?
@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-  "I love to code. I recently started. I am not doing so bad at it".count_sentences
+  "I love to code. I recently started. I am not doing so bad at it"
   end
 end
