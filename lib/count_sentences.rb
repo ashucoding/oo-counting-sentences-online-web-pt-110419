@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-  "I love to code. I recently started. I am not doing so bad at it"
+  self.count_sentences
   end
 end
